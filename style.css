@@ -1,0 +1,300 @@
+body{
+	font-family: 'Grand Hotel', cursive;
+	border: 0;
+	box-sizing: border-box;
+	margin: 0;
+	background-color: #d3e6f4;
+	width: 100%;
+}
+
+header {
+background-color: #0059a9;
+display: flex;
+width: 100%;
+/*height: 145px;*/
+justify-content: space-between;
+
+}
+
+.top-left {
+	display: flex;
+	justify-content: space-between;
+    margin-bottom: 10px;
+  /*  margin-left: 15px;*/
+}
+
+h4{
+	font-family: 'Acme', sans-serif;
+}
+
+.top-right {
+	display: flex;
+	justify-content: flex-end;
+    /*flex-direction: column;*/
+	margin: 0px;
+	padding: 0px;
+}
+
+.left-icons {
+	height: 20px;
+	width: 20px;
+	opacity: .70;
+	padding-right: 10px;
+}
+
+.sticks-icon {
+	width: 40px;
+    height: 40px;
+}
+
+.ski {
+	font-size: 35pt;
+    margin-top: 4px;
+    margin-right: 10px;
+    margin-bottom: -2px;
+}
+
+.right-icon {
+	height: 20px;
+    width: 20px;
+    opacity: .70;
+    margin-right: 4px;
+    margin-bottom: -5px;
+}
+
+.admin-icon {
+	height: 10px;
+    width: 10px;
+    opacity: .70;
+    margin-bottom: 0px;
+    margin-left: 12px;
+}
+
+.admin {
+	padding-right: 10px;
+	font-size: 10pt;
+}
+
+.top-three-left {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-around;
+}
+
+.top-three-p {
+	font-size: 20pt;
+    margin-left: 33px;
+    padding-right: 30px;
+}
+
+.nav {
+	display: flex;
+	align-items: flex-end;
+	justify-content: space-evenly;
+	height: 135px;
+	font-size: 18pt;
+}
+
+.resorts-bottom {
+	background-color: #d3e6f4;
+}
+
+h3 {
+	font-size: 30pt;
+	margin-left: 36px;
+	background-color: #d3e6f4;
+}
+
+p {
+	font-size: 16pt;
+	
+}
+
+.right-arrow {
+	height: 60px;
+    width: 60px;
+    opacity: .70;
+    margin-top: 30px;
+    margin-top: 60px;
+    margin-left: 10px;
+}
+
+.bottom{
+	display: flex;
+	justify-content: flex-start;
+	background-color: #d3e6f4;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin: 0px 15px 0px 15px;
+}
+
+.box { 
+	background-size: 328px 300px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 328px;
+    height: 41vw;
+    background-color: #5169a7;
+    margin-bottom: 10px;
+    opacity: .75;
+    background-repeat: no-repeat;
+    margin-right: 13px;
+}
+
+.top{
+	background-size: contain;
+	display: flex;
+	width: 22vw;
+	height: 11vw;
+	display: flex;
+	justify-content: space-between;
+	height: 44vw;
+
+}
+
+.top-box {
+	height: 300px;
+    width: 329px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+#one {
+	background-image: url("images/grans.jpg");
+	
+}
+
+.number {
+	text-decoration-line: 0 0 0 0;
+}
+
+.views {
+	font-family: 'Acme', sans-serif;
+	text-decoration: underline orange;
+	margin-right: 11px;
+    margin-top: 60px;
+}
+
+.card-bottom {
+	display: block;
+	height: 290px;
+    width: 328px;
+    margin-left: 10px;
+}
+
+.number {
+	color: blue;
+	font-size: 20pt;
+	 margin-top: -10px;
+}
+
+.flag {
+	height: 13px;
+    width: 19px;
+    padding-left: 15px;
+}
+
+
+
+.link{
+	background-color: #DBDBDB;
+    width: 304px;
+    height: 44px;
+    opacity: .75;
+}
+
+#two {
+	background-image: url("images/sunvalley.jpg");
+	background-size: 328px 300px;
+	
+}
+
+#three {
+	background-image: url("images/zermatt.jpg"); 
+}
+
+#four {
+	background-image: url("images/verb.jpg");
+}
+
+#five {
+	background-image: url("images/kandersteg.jpg");
+}
+
+#six {
+	background-image: url("images/val-d'isere.jpg");
+}
+
+#seven {
+	background-image: url("images/stowe.jpg");
+}
+
+#eight {
+	background-image: url("images/gstaad.jpg");
+}
+
+#nine {
+	display:none;
+}
+
+@media screen and (max-width: 1380px) {
+
+#two {
+	background-size: 328px 240px;
+}
+.box {
+	background-size: 287px 240px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 287px;
+    height: 562px;
+}
+
+.link {
+	width: 266px;
+    height: 36px;
+}
+.top-box {
+	height: 283px
+}
+
+#two {
+    background-image: url(images/sunvalley.jpg);
+    background-size: 328px 240px
+}
+
+@media screen and (max-width: 920px) {
+.box {
+	background-size: 430px 240px;
+	width: 429px;
+}
+
+.top-box {
+	width: 434px;
+}
+#two {
+    background-image: url(images/sunvalley.jpg);
+    background-size: 429px 240px
+}
+
+
+}	
+
+@media screen and (max-width: 913px) {
+
+.box {
+	width: 429px;
+    margin-left: 232px;
+
+}
+
+h3 {
+	text-align: center;
+}
+
+}
+
+
+
