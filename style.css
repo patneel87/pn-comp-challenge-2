@@ -252,6 +252,20 @@ p {
     height: 562px;
 }
 
+#nine {
+	background-size: 328px 300px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 328px;
+    height: 41vw;
+    background-color: transparent;
+    margin-bottom: 10px;
+    opacity: 0;
+    background-repeat: no-repeat;
+    margin-right: 13px;
+
+}
+
 .link {
 	width: 266px;
     height: 36px;
@@ -265,7 +279,13 @@ p {
     background-size: 328px 240px
 }
 
-@media screen and (max-width: 920px) {
+#seven {
+	margin-right: 53px;
+}
+
+}
+
+@media screen and (max-width: 1011px) {
 .box {
 	background-size: 430px 240px;
 	width: 429px;
@@ -274,11 +294,25 @@ p {
 .top-box {
 	width: 434px;
 }
+
+
 #two {
     background-image: url(images/sunvalley.jpg);
     background-size: 429px 240px
 }
+#nine {
+	background-size: 328px 300px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 328px;
+    height: 41vw;
+    background-color: transparent;
+    margin-bottom: 10px;
+    opacity: 0;
+    background-repeat: no-repeat;
+    margin-right: 13px;
 
+}
 
 }	
 
@@ -292,6 +326,10 @@ p {
 
 h3 {
 	text-align: center;
+}
+
+#nine {
+	display: none;
 }
 
 }
